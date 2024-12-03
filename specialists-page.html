@@ -1,0 +1,781 @@
+<!doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Pro NACC">
+<title>Pro NACC</title>
+<link rel="stylesheet" href="css/main.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<body>
+
+	<div class="wrapper">
+		<header class="header" id="navbar">
+	<div class="header__container">
+		<div class="header__blocks">
+			<div class="header__logo">
+				<a href="index.html"><img src="./images/logo.svg" alt="Logo"></a>
+			</div>
+
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item" style="gap: 10px;">
+						<a href="#!" class="menu__link">
+							о проекте
+							<i class="fa-chevron-down fa-solid"></i>
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="specialists-page.html" class="menu__sub-link">Эксперты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="response-page.html" class="menu__sub-link submenu-item">Отзывы</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#footer" class="menu__sub-link submenu-item">Контакты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link submenu-item">Обратная
+									связь</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="club-page.html" class="menu__link">
+							закрытый клуб PRO NACC
+						</a>
+					</li>
+
+					<li class="menu__item">
+						<a href="#!" class="menu__link">
+							маркет
+							<i class="fa-chevron-down fa-solid"></i>
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="market-page.html" class="menu__sub-link submenu-item">все продукты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="market-page.html#skin-care" class="menu__sub-link submenu-item">уход за
+									кожей</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">уход за волосами</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">декоративная косметика</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">аксессуарыx </a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="products.html" class="menu__sub-link">товары </a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							обучение
+							<i class="fa-chevron-down fa-solid"></i>
+
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="articles-page.html" class="menu__sub-link">Статьи</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="pdl.html" class="menu__sub-link">ПДЛ</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="matrix.html" class="menu__sub-link">Матрица судьбы</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="pythagoras.html" class="menu__sub-link">Квадрат Пифагора.</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							продукты
+							<i class="fa-chevron-down fa-solid"></i>
+
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Обучение</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Методические материалы</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Вебинары</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Книги</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Консультации</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Расписание курсов на 2023</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Медитации</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Сказкотерапия</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">стихи</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Специальные программы и <br> вебинары</a>
+							</li>
+
+
+							<li class="menu__sub-item last-sub-item">
+								<a href="#!" class="menu__sub-link">Калькуляторы.<br> Психонумерологическая<br>
+									диагностика
+									личности.</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="header__languages languages">
+				<div class="languages__blocks">
+					<!-- <div class="languages__block"><a href="#!">EN</a></div>
+					<div class="languages__block active"> <a href="#!">RUS</a></div>
+					<div class="languages__block"><a href="#!">HEB</a></div> -->
+
+					<a href="#!" class="languages__block">EN</a>
+					<a href="#!" class="languages__block active">RUS</a>
+					<a href="#!" class="languages__block">HEB</a>
+				</div>
+			</div>
+
+			<div class="header__info info">
+				<ul class="info__list">
+					<li class="info__item">
+						<a href="basket-page.html"><img src="./images/icon/fluent_cart.svg" alt="basket"></a>
+					</li>
+					<li class="info__item">
+						<a href="favorites-page.html"><img src="./images/icon/heart.svg" alt="like"></a>
+					</li>
+					<li class="info__item">
+						<a href="#!"><img src="./images/icon/person.svg" alt="register"></a>
+						<ul class="info__sub-list">
+							<li class="info__sub-item"><a href="entry-form.html" class="info__sub-link">Войти</a></li>
+							<li class="info__sub-item"><a href="register-form.html" class="info__sub-link">Зарегистрироваться</a></li>
+							<li class="info__sub-item"><a href="#!" class="info__sub-link" style="color: #78716C;">выйти</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div class="header__burger-menu" id="nav-icon3">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+		<div class="wrapper-container">
+			<section class="author">
+				<div class="author__container">
+					<div class="author__blocks">
+						<picture class="author__img">
+							<source srcset="./images/Specialists-page/author.webp" type="image/webp">
+							<img src="./images/Specialists-page/author.png" alt="Main picture">
+						</picture>
+
+						<div class="author__contents">
+							<div class="author__title">
+								<h1>Анжи Стоун</h1>
+							</div>
+
+							<p class="author__about">Автор проекта PRO NACC</p>
+
+							<div class="author__descript">
+								<p>Друзья!</p>
+								<p>Я - Анжи Стоун, психоаналитик, нейропсихолог, писатель, автор и продюсер проекта PRO
+									NACC. К психологии я пришла уже в зрелом возрасте, хотя увлекалась ею с детства.
+								</p>
+								<p>Я отношусь к тем специалистам, кто не отрицает другие эзотерические науки. Изучив
+									астрологию, нумерологию и Таро, я никогда не буду утвердительно заявлять, что эти
+									методы познания не работают. Каждое из вышеперечисленных знаний расскажет вам
+									истину, только со своей стороны, и со своего ракурса. Так астрология расскажет где
+									копать, психология как копать, а Таро нам расскажет детали и нюансы этого процесса.
+									Все эти знания работают, и дают нам представление о том, кем мы являемся, дают
+									ответы на сложнейшие вопросы, возникающие в нашей жизни, и дают нам советы по
+									самопознанию, и реализации.
+								</p>
+							</div>
+
+							<a href="#!" class="author-btn read-more">Читать подробнее</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="education">
+				<div class="education__container">
+					<div class="education__blocks">
+						<div class="benefits education__benefits">
+							<p>Симбиоз этих знаний в моей практике дает исключительно позитивный результат. Так
+								астролог, поможет вам сделать точнейшую диагностику, увидеть все проблемы в вашей жизни,
+								родовые сценарии и корни. Астрология помогает увидеть какая психологическая школа и
+								методика лучше всего поможет человеку в изменениях, работа с чувствами или работа с
+								ментальным планом. У психолога же велик субъективизм в работе с вами, но он поможет вам
+								проделать трансформационную работу над собой, проработать все психологические сценарии.
+							</p>
+
+							<p>В каждой науке я вижу ее полезность для развития и понимания насущных проблем человека.
+							</p>
+
+							<p>Мое внимание сфокусировано на теме взаимоотношений между мужчиной и женщиной.</p>
+
+							<p>Эта тема многовековая. Она традиционно является одной из самых обсуждаемых. И опираясь на
+								мои знания, психотерапевтическая работа с нашими участниками проекта будет максимально
+								эффективной.
+							</p>
+						</div>
+
+						<div class="education__info">
+							<div class="education__title">
+								<h1>Образование:</h1>
+							</div>
+							<div class="education__info-block">
+								<p>- МГУ им. Ломоносова.</p>
+								<p>- Московский Институт Психоанализа.</p>
+								<p>- Нейропсихология взрослых. Диагностика и реабилитация лиц, имеющих нарушения
+									высших психических функций различного генеза.</p>
+								<p>- Экстремальная психология. Оказание экстренной помощи в кризисных ситуациях и
+									при психологических травмах.</p>
+								<p>- Нейролингвистическое программирование (НЛП) в индивидуальном психологическом
+									консультировании.</p>
+								<p>- Психосоматические расстроиства функциональных систем организма у взрослых:
+									клиника, диагностика, психотерапевтическая помощь.</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="experts">
+				<div class="experts__container">
+					<div class="experts__blocks">
+						<div class="experts__content mission__content">
+							<div class="experts__title">
+								<h1>Наши эксперты</h1>
+							</div>
+
+							<p class="experts__descipt mission__descript">
+								Команда профессионалов, которая работает чтобы сделать жизнь наших участников лучше
+							</p>
+						</div>
+
+
+						<div class="carousel swiper">
+							<ul class="carousel__blocks swiper-wrapper">
+								<li class="carousel__slide swiper-slide">
+									<picture class="carousel__img">
+										<source srcset="./images/Specialists-page/ex-01.webp" type="image/webp">
+										<img src="./images/Specialists-page/ex-01.png" alt="Main picture">
+									</picture>
+
+									<div class="carousel__content">
+										<h1>Кирилл Шенбах</h1>
+										<p>Арт-директор проекта PRO NACC</p>
+									</div>
+								</li>
+
+								<li class="carousel__slide swiper-slide">
+									<picture class="carousel__img">
+										<source srcset="./images/Specialists-page/ex-02.webp" type="image/webp">
+										<img src="./images/Specialists-page/ex-02.png" alt="Main picture">
+									</picture>
+
+									<div class="carousel__content">
+										<h1>Мария Коробкова</h1>
+										<p>Психолог</p>
+									</div>
+								</li>
+
+								<li class="carousel__slide swiper-slide">
+									<picture class="carousel__img">
+										<source srcset="./images/Specialists-page/ex-03.webp" type="image/webp">
+										<img src="./images/Specialists-page/ex-03.png" alt="Main picture">
+									</picture>
+
+									<div class="carousel__content">
+										<h1>Юлия Михеева</h1>
+										<p>Нумеролог</p>
+									</div>
+								</li>
+
+								<li class="carousel__slide swiper-slide">
+									<picture class="carousel__img">
+										<source srcset="./images/Specialists-page/ex-04.webp" type="image/webp">
+										<img src="./images/Specialists-page/04.png" alt="Main picture">
+									</picture>
+
+									<div class="carousel__content">
+										<h1>Юлия Михеева</h1>
+										<p>Нумеролог</p>
+									</div>
+								</li>
+
+								<!--  -->
+							</ul>
+
+							<div class="swiper-btns">
+								<img class="swiper-button-prev" src="./images/icon/arrow-left.svg" alt="left">
+								<img class="swiper-button-next" src="./images/icon/arrow-right.svg" alt="right">
+							</div>
+
+							<div class="swiper-pagination"></div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<div class="descript__wrapper">
+				<section class="descript">
+					<div class="descript__container">
+						<div class="descript__blocks">
+							<picture class="descript__img">
+								<source srcset="./images/Specialists-page/01.webp" type="image/webp">
+								<img src="./images/Specialists-page/01.png" alt="Kiril">
+							</picture>
+
+							<div class="descript__content">
+								<div class="descript__title">
+									<h1>Кирилл Шенбах</h1>
+								</div>
+
+								<div class="descript__desc">
+									<p class="descript__hello">Я - Кирилл Шенбах, историк, писатель, социолог,
+										арт-директор
+										проекта PRO
+										NACC.</p>
+
+									<p class="descript__descript">
+										Любая область человеческого знания лишь приоткрывает завесу непознанного, минуя
+										которую,
+										свет откровения попадая в наши сердца, рождает стремление к гармонии и
+										самосовершенствованию. Наш проект - это обращение к людям с этим посылом,
+										надеемся,
+										что
+										представленные материалы будут интересны, как стремящимся к вершинам
+										человеческого
+										духа,
+										так и в решении насущных проблем, вызванных жизненной необходимостью. В этом нам
+										помогут
+										современные средства коммуникации и накопленный опыт предыдущих поколений. В
+										большом
+										деле не бывает мелочей, мы хотим создать сообщество, в многообразном
+										разнообразии
+										интересов которого лежат общечеловеческие ценности, являющеся фундаментом
+										движения к
+										добру и процветанию.
+									</p>
+
+									<p class="descript__descript">
+										Каждый человек и каждая история индивидуальны, что делает процесс помощи
+										несколько
+										сложнее, но я знаю, что абсолютно любому человеку можно помочь.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="descript">
+					<div class="descript__container">
+						<div class="descript__blocks descript__blocks-reverse">
+							<picture class="descript__img">
+								<source srcset="./images/Specialists-page/02.webp" type="image/webp">
+								<img src="./images/Specialists-page/02.png" alt="Kiril">
+							</picture>
+
+							<div class="descript__content">
+								<div class="descript__title">
+									<h1>Мария Коробкова</h1>
+								</div>
+
+								<div class="descript__desc">
+									<p class="descript__hello">МПГУ им. Ленина, филологический факультет (2013);
+										РГУФКСМиТ,
+										гуманитарный институт, кафедра психологии, специализация - "спортивный психолог"
+										(2019); на данный момент студентка Universita' degli studi di Milano - Вісс
+										(UNIMIB)
+										в Италии,факультет психологии, специальность - Scienze e tecniche psicologiche.
+									</p>
+
+									<p class="descript__descript">
+										Я всегда хотела помогать людям, поэтому и выбрала психологию, а именно
+										взаимоотношения между мужчиной и женщиной. Каждый человек и каждая история
+										индивидуальны, что делает процесс помощи несколько сложнее, но я знаю, что
+										абсолютно
+										любому человеку можно помочь.
+									</p>
+
+									<p class="descript__descript">
+										Изучение психологии и работа с людьми дала мне понять, что из любых событий в
+										жизни
+										можно вынести пользу. Мы не застрахованы от ошибок, но можем сделать так. чтобы
+										они
+										приносили нам пользу, а не тоску. А помогу в этом вам я.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="descript">
+					<div class="descript__container">
+						<div class="descript__blocks">
+							<picture class="descript__img">
+								<source srcset="./images/Specialists-page/03.webp" type="image/webp">
+								<img src="./images/Specialists-page/03.png" alt="Kiril">
+							</picture>
+
+							<div class="descript__content">
+								<div class="descript__title">
+									<h1>Юлия Михеева</h1>
+								</div>
+
+								<div class="descript__desc">
+									<p class="descript__hello">C 2021 года я занимаюсь нумерологией, помогая людям
+										раскрывать тайны своей судьбы и принимать более осознанные жизненные решения.
+									</p>
+
+									<p class="descript__descript">
+										Мои навыки включают расчет индивидуального нумерологического портрета, анализ
+										влияния чисел на карьеру и отношения, а также проведение индивидуальных
+										консультаций
+										для клиентов. С моей помощью можно узнать все о своей личности, цели и задачи
+										этой
+										жизни, таланты и предназначение. А так же узнать, есть ли у вас способности к
+										целительству или ясновидению и как можно начать их развивать.
+									</p>
+
+									<p class="descript__descript">
+										Каждый человек и каждая история индивидуальны, что делает процесс помощи
+										несколько
+										сложнее, но я знаю, что абсолютно любому человеку можно помочь.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="descript">
+					<div class="descript__container">
+						<div class="descript__blocks descript__blocks-reverse">
+							<picture class="descript__img">
+								<source srcset="./images/Specialists-page/04.webp" type="image/webp">
+								<img src="./images/Specialists-page/4.png" alt="Kiril">
+							</picture>
+
+							<div class="descript__content">
+								<div class="descript__title">
+									<h1>Мила Майер</h1>
+								</div>
+
+								<div class="descript__desc">
+									<p class="descript__descript">
+										Родилась и выросла в прекрасном и красивом месте, в Республике Карелия.
+									</p>
+									<p class="descript__descript">
+										Когда пришло время выбирать свою будущую профессию, я поняла, что хочу стать
+										психологом. Уже в
+										подростковом возрасте я начала читать книги по психологии, изучать себя и других
+										людей. В школе
+										я поняла, что хочу быть полезной для людей и делать их более счастливыми.
+									</p>
+									<p class="descript__descript">
+										В 2016 году закончила Петрозаводский государственный университет по
+										специальности
+										“Педагог-психолог”, благодаря которому, я лучше стала понимать окружающих людей
+										и в
+										первую
+										очередь помогла себе разобраться со своими проблемами.
+									</p>
+									<p class="descript__descript">
+										Эзотерика окружала меня с самого детства, но погружаться я начала в неё в 2018
+										году.
+										Первые
+										карты ТАРО у меня появились в том же году, и уже тогда я начала замечать, что у
+										меня
+										есть
+										способности.
+									</p>
+									<p class="descript__descript">
+										В 2021 году я успешно прошла обучение по Таро и по настоящий день продолжаю
+										углублять свои
+										знания. Общий стаж работы с картами 2,5 года. На данный момент также являюсь
+										куратором курса по
+										Таро.
+									</p>
+									<p class="descript__descript">
+										Я из тех специалистов, которые непрерывно растут и развиваются духовно, слушают
+										и
+										умеют слышать
+										других людей. Мне свойственны эмпатия и одновременно я умею трезво оценить
+										ситуацию.
+									</p>
+
+									<!-- Прихований текст -->
+									<p class="descript__hidden hidden" style="display: none;">
+										Моя цель - помогать людям находить свое место в жизни, понимать свои чувства и
+										эмоции, а также
+										научиться справляться с различными проблемами и трудностями. Я верю, что каждый
+										человек уникален
+										и имеет свой неповторимый путь, и моя задача - помочь им найти свой путь и
+										достичь
+										своих целей.
+
+									</p>
+
+									<p class="descript__hidden" style="display: none;">
+										С помощью Таро я с радостью помогу вам разобраться в сложной жизненной
+										ситуацией,
+										посмотреть на
+										неё с той стороны, которую вы не видите и подсвечу самый благоприятный путь для
+										вас!
+									</p>
+								</div>
+
+								<a href="#!" class="author-btn read-more">Читать подробнее</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="descript">
+					<div class="descript__container">
+						<div class="descript__blocks">
+							<picture class="descript__img">
+								<source srcset="./images/Specialists-page/05.webp" type="image/webp">
+								<img src="./images/Specialists-page/05.png" alt="Kiril">
+							</picture>
+
+							<div class="descript__content">
+								<div class="descript__title">
+									<h1>Екатерина Конашенко.</h1>
+								</div>
+
+								<div class="descript__desc">
+
+									<p class="descript__descript">
+										Здравствуйте!
+									</p>
+
+									<p class="descript__descript">
+										Меня зовут Екатерина Конашенко. Я практикующий клинический психолог и таролог.
+										Уже
+										более 5 лет я помогаю людям построить гармоничные отношения, найти свое
+										предназначение в жизни, справиться с проблемами выгорания, депрессии и тревоги и
+										найти ответы на волнующие вас вопросы с помощью карт.
+									</p>
+
+
+									<p class="descript__descript">
+										<span>Мой опыт: </span>5 лет я работала в Экспертно-Аналитическом Объединении
+										Проф-Диалог. Стала
+										создателем онлайн программ по развитию эмоционального интеллекта, тревожности,
+										конфликтам и тайм-менеджменту. Проводила многочисленные вебинары по диагностике
+										личности людей и профилактике конфликтов.
+									</p>
+
+									<p class="descript__descript">
+										Кроме того, с 2018 года я веду частную практику как психолог и таролог.
+									</p>
+
+									<span>В чем особенность моего подхода?</span>
+
+									<p class="descript__descript">
+										В работе я делаю акцент на простоту и доступность информации, без сложных
+										терминов и
+										заумных фраз. Говорю с людьми на человеческом языке и помогаю вам решить ваш
+										вопрос
+										максимально быстро.
+									</p>
+
+									<span>На какие темы вы можете задать вопросы тарологу?</span>
+								</div>
+
+								<a href="#!" class="author-btn read-more">Читать подробнее</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<section class="partners">
+				<div class="partners__container">
+					<div class="partners__blocks">
+						<picture class="partners__img">
+							<source srcset="./images/Specialists-page/frans.webp" type="image/webp">
+							<img src="./images/Specialists-page/frans.png" alt="Partners">
+						</picture>
+
+
+						<div class="partners__content">
+							<div class="partners__title">
+								<h1>Наши партнеры и спонсоры</h1>
+							</div>
+
+							<span>Frans van Aken</span>
+
+							<div class="descript__desc">
+								<p class="descript__descript">
+									Музыкант, композитор, аранжировщик и продюсер центра MUTAZE (Нидерланды). Автор
+									уникальной музыки к роликам проекта PRO NACC, любезно предоставивший свои
+									произведения для нашего контента.
+								</p>
+
+								<p class="descript__descript">
+									Frans van Aken - известный в Нидерландах и Евросоюзе продюсер, работающий со
+									многими
+									известными исполнителями, как из Европы, так и из других стран.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+		</div>
+
+		<footer class="footer" id="footer">
+	<div class="footer__container">
+		<div class="footer__blocks">
+			<div class="footer__form">
+				<h1>Подписаться на новостную рассылку</h1>
+				<div action="#" method="post" class="form">
+					<input type="text" class="footer__name" name="name" placeholder="Ваше имя" required>
+
+					<input type="tel" class="footer__phone" name="phone" placeholder="Ваш телефон" required>
+
+					<a href="#!" class="footer-btn main-btn">Подписаться</a>
+				</div>
+
+				<div class="footer__social">
+					<a href="#!"><img src="./images/icon/form-icon-01.svg" alt="vk"></a>
+					<a href="#!"><img src="./images/icon/form-icon-2.svg" alt="telegram"></a>
+					<a href="#!"><img src="./images/icon/form-icon-3.svg" alt="instagram"></a>
+					<a href="#!"><img src="./images/icon/form-icon-4.svg" alt="tiktok"></a>
+					<a href="#!"> <img src="./images/icon/form-icon-5.svg" alt="-"></a>
+				</div>
+			</div>
+
+			<div class="footer__blocks-wrapper">
+				<div class="footer__menu">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item">
+							<a href="#!">О проекте</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Закрытый клуб PRO NACC</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Маркет</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Обучение</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Продукты</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Личный кабинет</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__info">
+					<h1>Контакты</h1>
+
+					<div class="footer__info-about">
+						<a href="tel:+79204022363">
+							<img src="./images/icon/Frame.svg" alt="number">
+							<p>+7 920 402-23-63</p>
+						</a>
+						<a href="mailto:pronacc108@gmail.com">
+							<img src="./images/icon/Frame-1.svg" alt="mail">
+							<p>pronacc108@gmail.com</p>
+						</a>
+						<a href="#!">
+							<img src="./images/icon/Frame-2.svg" alt="address">
+							<p>Адрес</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__below">
+			<div class="footer__below-block">
+			</div>
+
+			<p>PRONACC — все права защищены. 2023</p>
+		</div>
+	</div>
+</footer>
+	</div>
+
+	<script src="js/main.min.js" defer="defer"></script>
+</body>
+
+</html>

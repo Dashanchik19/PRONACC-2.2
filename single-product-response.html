@@ -1,0 +1,466 @@
+<!-- Sing page c Отзьівами -->
+
+<!doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pro NACC</title>
+<link rel="stylesheet" href="css/main.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<body>
+
+	<div class="wrapper">
+		<header class="header" id="navbar">
+	<div class="header__container">
+		<div class="header__blocks">
+			<div class="header__logo">
+				<a href="index.html"><img src="./images/logo.svg" alt="Logo"></a>
+			</div>
+
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item" style="gap: 10px;">
+						<a href="#!" class="menu__link">
+							о проекте
+							<i class="fa-chevron-down fa-solid"></i>
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="specialists-page.html" class="menu__sub-link">Эксперты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="response-page.html" class="menu__sub-link submenu-item">Отзывы</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#footer" class="menu__sub-link submenu-item">Контакты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link submenu-item">Обратная
+									связь</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="club-page.html" class="menu__link">
+							закрытый клуб PRO NACC
+						</a>
+					</li>
+
+					<li class="menu__item">
+						<a href="#!" class="menu__link">
+							маркет
+							<i class="fa-chevron-down fa-solid"></i>
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="market-page.html" class="menu__sub-link submenu-item">все продукты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="market-page.html#skin-care" class="menu__sub-link submenu-item">уход за
+									кожей</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">уход за волосами</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">декоративная косметика</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">аксессуарыx </a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="products.html" class="menu__sub-link">товары </a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							обучение
+							<i class="fa-chevron-down fa-solid"></i>
+
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="articles-page.html" class="menu__sub-link">Статьи</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="pdl.html" class="menu__sub-link">ПДЛ</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="matrix.html" class="menu__sub-link">Матрица судьбы</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="pythagoras.html" class="menu__sub-link">Квадрат Пифагора.</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							продукты
+							<i class="fa-chevron-down fa-solid"></i>
+
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Обучение</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Методические материалы</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Вебинары</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Книги</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Консультации</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Расписание курсов на 2023</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Медитации</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Сказкотерапия</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">стихи</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Специальные программы и <br> вебинары</a>
+							</li>
+
+
+							<li class="menu__sub-item last-sub-item">
+								<a href="#!" class="menu__sub-link">Калькуляторы.<br> Психонумерологическая<br>
+									диагностика
+									личности.</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="header__languages languages">
+				<div class="languages__blocks">
+					<!-- <div class="languages__block"><a href="#!">EN</a></div>
+					<div class="languages__block active"> <a href="#!">RUS</a></div>
+					<div class="languages__block"><a href="#!">HEB</a></div> -->
+
+					<a href="#!" class="languages__block">EN</a>
+					<a href="#!" class="languages__block active">RUS</a>
+					<a href="#!" class="languages__block">HEB</a>
+				</div>
+			</div>
+
+			<div class="header__info info">
+				<ul class="info__list">
+					<li class="info__item">
+						<a href="basket-page.html"><img src="./images/icon/fluent_cart.svg" alt="basket"></a>
+					</li>
+					<li class="info__item">
+						<a href="favorites-page.html"><img src="./images/icon/heart.svg" alt="like"></a>
+					</li>
+					<li class="info__item">
+						<a href="#!"><img src="./images/icon/person.svg" alt="register"></a>
+						<ul class="info__sub-list">
+							<li class="info__sub-item"><a href="entry-form.html" class="info__sub-link">Войти</a></li>
+							<li class="info__sub-item"><a href="register-form.html" class="info__sub-link">Зарегистрироваться</a></li>
+							<li class="info__sub-item"><a href="#!" class="info__sub-link" style="color: #78716C;">выйти</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div class="header__burger-menu" id="nav-icon3">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+		<div class="wrapper-container">
+			<div class="single-product">
+				<div class="single-product__container">
+					<div class="single-product__blocks">
+						<picture class="single-product__img">
+							<!-- <source srcset="./images/Main-page/vebinars-picture_01.webp" type="image/webp"> -->
+							<img src="./images/Single-page/01.png" alt="Webinar">
+						</picture>
+
+						<div class="single-product__wrap">
+							<div class="single-product__content">
+								<div>
+									<h1>LA MOUSSE <span>CHANEL</span></h1>
+
+									<p class="single-product__price">$129.49</p>
+								</div>
+
+
+								<div class="single-product__favorites">
+									<input type="checkbox" name="contact">
+									<p>Добавить в избранное</p>
+								</div>
+
+								<div class="single-product__basket">
+									<input type="number" step="1" value="1" min="0">
+									<a href="#!">в корзину</a>
+								</div>
+
+								<p class="single-product__descript">
+									Наши вебинары - это ценный ресурс для всех, кто ищет поддержку, информацию и
+									вдохновение
+									в различных аспектах жизни
+								</p>
+
+								<div class="single-product__line"></div>
+							</div>
+
+							<div class="single-product__category">
+								<h1>категория</h1>
+
+								<a href="#!">Маркет</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="single-product__response">
+						<p>Отзывы (0)</p>
+					</div>
+				</div>
+
+				<div class="mySwiper-basket single-product__response-wrap swiper">
+					<div class="single-product__response-blocks swiper-wrapper">
+						<div class="single-product__response-block swiper-slide">
+							<div class="single-product__response-top">
+								<img src="./images/Club-page/person.svg" alt="">
+								<p>М****</p>
+							</div>
+
+							<div class="single-product__response-stars">
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+							</div>
+
+							<div class="single-product__responce-descript">
+								<p>
+									Задача организации, в особенности же консультация с широким активом
+									в значительной степени обуславливает создание новых предложений. Значимость
+									этих
+									проблем настолько очевидна, что рамки и место обучения кадров
+								</p>
+							</div>
+						</div>
+
+						<div class="single-product__response-block swiper-slide">
+							<div class="single-product__response-top">
+								<img src="./images/Club-page/person.svg" alt="">
+								<p>М****</p>
+							</div>
+
+							<div class="single-product__response-stars">
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+							</div>
+
+							<div class="single-product__responce-descript">
+								<p>
+									Задача организации, в особенности же консультация с широким активом
+									в значительной степени обуславливает создание новых предложений. Значимость
+									этих
+									проблем настолько очевидна, что рамки и место обучения кадров
+								</p>
+							</div>
+						</div>
+
+						<div class="single-product__response-block swiper-slide">
+							<div class="single-product__response-top">
+								<img src="./images/Club-page/person.svg" alt="">
+								<p>М****</p>
+							</div>
+
+							<div class="single-product__response-stars">
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+							</div>
+
+							<div class="single-product__responce-descript">
+								<p>
+									Задача организации, в особенности же консультация с широким активом
+									в значительной степени обуславливает создание новых предложений. Значимость
+									этих
+									проблем настолько очевидна, что рамки и место обучения кадров
+								</p>
+							</div>
+						</div>
+
+						<div class="single-product__response-block swiper-slide">
+							<div class="single-product__response-top">
+								<img src="./images/Club-page/person.svg" alt="">
+								<p>М****</p>
+							</div>
+
+							<div class="single-product__response-stars">
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+								<span><img src="./images/Single-page/Star.svg" alt=""></span>
+							</div>
+
+							<div class="single-product__responce-descript">
+								<p>
+									Задача организации, в особенности же консультация с широким активом
+									в значительной степени обуславливает создание новых предложений. Значимость
+									этих
+									проблем настолько очевидна, что рамки и место обучения кадров
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-btns-2">
+						<img class="swiper-button-prev" src="./images/icon/arrow-left.svg" alt="left">
+						<img class="swiper-button-next" src="./images/icon/arrow-right.svg" alt="right">
+					</div>
+
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+
+		</div>
+
+		<footer class="footer" id="footer">
+	<div class="footer__container">
+		<div class="footer__blocks">
+			<div class="footer__form">
+				<h1>Подписаться на новостную рассылку</h1>
+				<div action="#" method="post" class="form">
+					<input type="text" class="footer__name" name="name" placeholder="Ваше имя" required>
+
+					<input type="tel" class="footer__phone" name="phone" placeholder="Ваш телефон" required>
+
+					<a href="#!" class="footer-btn main-btn">Подписаться</a>
+				</div>
+
+				<div class="footer__social">
+					<a href="#!"><img src="./images/icon/form-icon-01.svg" alt="vk"></a>
+					<a href="#!"><img src="./images/icon/form-icon-2.svg" alt="telegram"></a>
+					<a href="#!"><img src="./images/icon/form-icon-3.svg" alt="instagram"></a>
+					<a href="#!"><img src="./images/icon/form-icon-4.svg" alt="tiktok"></a>
+					<a href="#!"> <img src="./images/icon/form-icon-5.svg" alt="-"></a>
+				</div>
+			</div>
+
+			<div class="footer__blocks-wrapper">
+				<div class="footer__menu">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item">
+							<a href="#!">О проекте</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Закрытый клуб PRO NACC</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Маркет</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Обучение</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Продукты</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Личный кабинет</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__info">
+					<h1>Контакты</h1>
+
+					<div class="footer__info-about">
+						<a href="tel:+79204022363">
+							<img src="./images/icon/Frame.svg" alt="number">
+							<p>+7 920 402-23-63</p>
+						</a>
+						<a href="mailto:pronacc108@gmail.com">
+							<img src="./images/icon/Frame-1.svg" alt="mail">
+							<p>pronacc108@gmail.com</p>
+						</a>
+						<a href="#!">
+							<img src="./images/icon/Frame-2.svg" alt="address">
+							<p>Адрес</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__below">
+			<div class="footer__below-block">
+			</div>
+
+			<p>PRONACC — все права защищены. 2023</p>
+		</div>
+	</div>
+</footer>
+	</div>
+
+	<script src="js/main.min.js" defer="defer"></script>
+</body>
+
+</html>

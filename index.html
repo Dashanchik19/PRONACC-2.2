@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Pro NACC">
+<title>ProNACC</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/main.min.css">
+
+<body>
+
+	<div class="wrapper">
+
+		<header class="header" id="navbar">
+	<div class="header__container">
+		<div class="header__blocks">
+			<div class="header__logo">
+				<a href="index.html"><img src="./images/logo.svg" alt="Logo"></a>
+			</div>
+
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item" style="gap: 10px;">
+						<a href="#!" class="menu__link">
+							о проекте
+							<i class="fa-chevron-down fa-solid"></i>
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="specialists-page.html" class="menu__sub-link">Эксперты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="response-page.html" class="menu__sub-link submenu-item">Отзывы</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#footer" class="menu__sub-link submenu-item">Контакты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link submenu-item">Обратная
+									связь</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="club-page.html" class="menu__link">
+							закрытый клуб PRO NACC
+						</a>
+					</li>
+
+					<li class="menu__item">
+						<a href="#!" class="menu__link">
+							маркет
+							<i class="fa-chevron-down fa-solid"></i>
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="market-page.html" class="menu__sub-link submenu-item">все продукты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="market-page.html#skin-care" class="menu__sub-link submenu-item">уход за
+									кожей</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">уход за волосами</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">декоративная косметика</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">аксессуарыx </a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="products.html" class="menu__sub-link">товары </a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							обучение
+							<i class="fa-chevron-down fa-solid"></i>
+
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="articles-page.html" class="menu__sub-link">Статьи</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="pdl.html" class="menu__sub-link">ПДЛ</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="matrix.html" class="menu__sub-link">Матрица судьбы</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="pythagoras.html" class="menu__sub-link">Квадрат Пифагора.</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							продукты
+							<i class="fa-chevron-down fa-solid"></i>
+
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Обучение</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Методические материалы</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Вебинары</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Книги</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Консультации</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Расписание курсов на 2023</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Медитации</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Сказкотерапия</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">стихи</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Специальные программы и <br> вебинары</a>
+							</li>
+
+
+							<li class="menu__sub-item last-sub-item">
+								<a href="#!" class="menu__sub-link">Калькуляторы.<br> Психонумерологическая<br>
+									диагностика
+									личности.</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="header__languages languages">
+				<div class="languages__blocks">
+					<!-- <div class="languages__block"><a href="#!">EN</a></div>
+					<div class="languages__block active"> <a href="#!">RUS</a></div>
+					<div class="languages__block"><a href="#!">HEB</a></div> -->
+
+					<a href="#!" class="languages__block">EN</a>
+					<a href="#!" class="languages__block active">RUS</a>
+					<a href="#!" class="languages__block">HEB</a>
+				</div>
+			</div>
+
+			<div class="header__info info">
+				<ul class="info__list">
+					<li class="info__item">
+						<a href="basket-page.html"><img src="./images/icon/fluent_cart.svg" alt="basket"></a>
+					</li>
+					<li class="info__item">
+						<a href="favorites-page.html"><img src="./images/icon/heart.svg" alt="like"></a>
+					</li>
+					<li class="info__item">
+						<a href="#!"><img src="./images/icon/person.svg" alt="register"></a>
+						<ul class="info__sub-list">
+							<li class="info__sub-item"><a href="entry-form.html" class="info__sub-link">Войти</a></li>
+							<li class="info__sub-item"><a href="register-form.html" class="info__sub-link">Зарегистрироваться</a></li>
+							<li class="info__sub-item"><a href="#!" class="info__sub-link" style="color: #78716C;">выйти</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div class="header__burger-menu" id="nav-icon3">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+		<div class="wrapper-container">
+
+			<main class="main">
+				<div class="main__container">
+					<div class="main__blocks">
+						<div class="main__content">
+							<p class="main__above">Психологический проект</p>
+							<div class="main__title">
+								<h1>PRO<span>NACC</span></h1>
+							</div>
+							<div class="main__descript">
+								<h2>Все, что с тобой происходит — это твой выбор!</h2>
+							</div>
+
+							<a href="#!" class="main-btn">присоединиться</a>
+
+						</div>
+
+						<picture class="main__img">
+							<source srcset="./images/Main-page/01.webp" type="image/webp">
+							<img src="./images/Main-page/01.png" alt="Main picture">
+						</picture>
+
+					</div>
+				</div>
+			</main>
+
+			<section class="mission">
+				<div class="mission__container">
+					<div class="mission__blocks">
+						<div class="mission__img">
+							<picture class="main__img">
+								<source srcset="./images/Main-page/mission-picture.webp" type="image/webp">
+								<img src="./images/Main-page/mission-picture.png" alt="Mission picture">
+							</picture>
+						</div>
+
+						<div class="mission__content">
+							<div class="mission__title">
+								<h1>Наша миссия</h1>
+							</div>
+
+							<p class="mission__descript">
+								Мы помогаем людям, пережившим расставание с партнером, или пострадавшим в тяжелых,
+								деструктивных отношениях. Прочувствовавшим унижение, разочарование, отчаяние, ненависть
+								к
+								себе и к другим.
+							</p>
+
+							<ul class="mission__list">
+								<li>Вернуть самооценку и самоуважение.</li>
+								<li>Придать веру в свою исключительность и красоту.</li>
+								<li>Понять, что счастье и успех в ваших собственных руках, и не зависит от партнера.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="support">
+				<div class="support__container">
+					<div class="support__blocks">
+						<div class="support__title">
+							<h1>Изменись сама - и изменится мир вокруг тебя!</h1>
+						</div>
+
+						<a href="#!" class="support-btn">хочу измениться</a>
+					</div>
+				</div>
+			</div>
+
+			<section class="manipulation">
+				<div class="manipulation__container">
+					<div class="manipulation__blocks">
+						<div class="manipulation__block">
+							<p class="manipulation__block-one">В нашем современном мире уже не редкость стать жертвой
+								деструктивных и токсичных отношений. Как
+								минимум раз, но на такое попадался каждый, причём как девушки и женщины, так и молодые
+								люи и
+								мужчины.
+							</p>
+
+
+							<picture class="manipulation__img-2">
+								<source srcset="./images/Main-page/people.webp" type="image/webp">
+								<img src="./images/Main-page/people.png" alt="people">
+							</picture>
+
+						</div>
+
+						<div class="manipulation__block manipulation__block-2">
+
+							<picture class="manipulation__img-1">
+								<source srcset="./images/Main-page/hands.webp" type="image/webp">
+								<img src="./images/Main-page/hands.png" alt="hands">
+							</picture>
+
+							<p class="manipulation__block-two">Мы приглашаем вас стать частью нашей семьи и научиться
+								жить
+								заново, если вы понимаете, что вам
+								это необходимо.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="dependence">
+				<div class="dependence__container">
+					<div class="dependence__blocks">
+						<div class="dependence__content">
+							<div class="dependence__title">
+								<h1>От таких отношений не застрахован никто</h1>
+							</div>
+
+							<p class="dependence__descript">
+								В любой момент каждый человек может стать зависимым от другого, посвящая свою жизнь
+								только
+								тому,
+								кого он, как кажется, любит, принося себя в жертву, и теряя себя, как личность.
+							</p>
+
+						</div>
+
+
+						<div class="accordion__blocks">
+							<div class="accordion-container">
+								<div class="accordion active">
+									<div class="accordion__intro">
+										<h1>Это выбор каждого?</h1>
+										<i class="fa-plus fa-regular icon plus"></i>
+									</div>
+									<div class="accordion__content">
+										<p>Многие не придают деструктивным отношениям особого значения, ведь все
+											считают,
+											что
+											это
+											выбор каждого: вступить в отношения, которые тебя убивают, быть жертвой
+											психопата,
+											алкоголика или тирана, оставаться в токсичных отношениях вместо того, чтобы
+											бежать
+											из
+											них.</p>
+									</div>
+									<div class="line"></div>
+								</div>
+
+								<div class="accordion">
+									<div class="accordion__intro">
+										<h1>Сама виновата?</h1>
+										<i class="fa-plus fa-regular icon plus"></i>
+									</div>
+									<div class="accordion__content">
+										<p>Многие не придают деструктивным отношениям особого значения, ведь все
+											считают,
+											что
+											это
+											выбор каждого: вступить в отношения, которые тебя убивают, быть жертвой
+											психопата,
+											алкоголика или тирана, оставаться в токсичных отношениях вместо того, чтобы
+											бежать
+											из
+											них.</p>
+									</div>
+									<div class="line"></div>
+								</div>
+
+								<div class="accordion">
+									<div class="accordion__intro">
+										<h1>А что потом?</h1>
+										<i class="fa-plus fa-regular icon plus"></i>
+									</div>
+									<div class="accordion__content">
+										<p>Многие не придают деструктивным отношениям особого значения, ведь все
+											считают,
+											что
+											это
+											выбор каждого: вступить в отношения, которые тебя убивают, быть жертвой
+											психопата,
+											алкоголика или тирана, оставаться в токсичных отношениях вместо того, чтобы
+											бежать
+											из
+											них.</p>
+									</div>
+									<div class="line"></div>
+								</div>
+
+							</div>
+
+							<picture class="accordion__img">
+								<source srcset="./images/Main-page/accordion-picture.webp" type="image/webp">
+								<img src="./images/Main-page/accordion-picture.png" role="presentation">
+							</picture>
+						</div>
+
+
+					</div>
+				</div>
+			</section>
+
+			<section class="hope">
+				<div class="hope__container">
+					<div class="hope__blocks">
+						<div class="hope__content">
+							<div class="hope__title">
+								<h1>Почему так?</h1>
+							</div>
+
+							<p class="hope__descript">
+								Людям, находившимся в таких ситуациях, порою очень сложно взять себя в руки и приложить
+								все
+								усилия, чтобы возродиться вновь.
+							</p>
+
+							<p class="hope__descript">
+								Одной из причин является тот факт, что в такие моменты человек один - он не может
+								обратиться
+								ни
+								к родителям, ни к друзьям, ни к психологу.
+							</p>
+
+							<p class="hope__descript">
+								Он боится признаться в том, что ему плохо и нужна помощь, но при этом понимает, что она
+								ему
+								необходима, и начинает или продолжает ее искать.
+							</p>
+						</div>
+
+						<div class="hope__img">
+							<picture class="hope__img">
+								<source srcset="./images/Main-page/whyso.webp" type="image/webp">
+								<img src="./images/Main-page/whyso.png" alt="Mission picture">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="support">
+				<div class="support__container">
+					<div class="support__blocks">
+						<div class="support__title">
+							<h1>Вы не одиноки!<br> На свете есть люди, готовые вас понять и помочь. Есть те люди,
+								которые
+								сами
+								прошли через те же трудности, что и вы. </h1>
+						</div>
+
+						<a href="#!" class="main-btn support-btn">узнать больше</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="products1">
+				<div class="products1__container">
+					<div class="products1__blocks">
+						<div class="products1__content">
+							<div class="products1__title">
+								<span>С ЗАБОТОЙ О НАШИХ ДРУЗЬЯХ</span>
+								<h1>Наши продукты</h1>
+							</div>
+
+							<p class="products1__descript">
+								На нашем сайте собраны книги, вебинары, тренинги, мастер - классы и другие материалы,
+								доступ
+								к
+								которым вы можете получить, не вступая в закрытый клуб.
+							</p>
+						</div>
+
+
+						<div class="products1__wrapper">
+							<a href="#!" class="products1__block" title="Перейти до розділу Webinars">
+								<picture class="products__img">
+									<source srcset="./images/Main-page/products-1.webp" type="image/webp">
+									<img src="./images/Main-page/products-1.png" alt="Mission picture">
+								</picture>
+
+								<p>Вебинары</p>
+							</a>
+
+							<a href="#!" class="products1__block" title="Перейти до розділу Webinars">
+								<picture class="products__img">
+									<source srcset="./images/Main-page/products-2.webp" type="image/webp">
+									<img src="./images/Main-page/products-2.png" alt="Mission picture">
+								</picture>
+
+								<p>Обучение</p>
+							</a>
+
+							<a href="#!" class="products1__block" title="Перейти до розділу Webinars">
+								<picture class="products__img">
+									<source srcset="./images/Main-page/products-3.webp" type="image/webp">
+									<img src="./images/Main-page/products-3.png" alt="Mission picture">
+								</picture>
+
+								<p>Сказкотерапия</p>
+							</a>
+
+							<a href="#!" class="products1__block" title="Перейти до розділу Webinars">
+								<picture class="products__img">
+									<source srcset="./images/Main-page/products-4.webp" type="image/webp">
+									<img src="./images/Main-page/products-4.png" alt="Mission picture">
+								</picture>
+
+								<p>Методические материалы</p>
+							</a>
+
+
+							<a href="#!" class="products1__block" title="Перейти до розділу Webinars">
+								<picture class="products__img">
+									<source srcset="./images/Main-page/products-5.webp" type="image/webp">
+									<img src="./images/Main-page/products-5.png" alt="Mission picture">
+								</picture>
+
+								<p>Калькуляторы. Психонумерологическая диагностика личности.</p>
+							</a>
+
+							<a href="#!" class="products1__block" title="Перейти до розділу Webinars">
+								<picture class="products__img">
+									<source srcset="./images/Main-page/products-6.webp" type="image/webp">
+									<img src="./images/Main-page/products-6.png" alt="Mission picture">
+								</picture>
+
+								<p>Консультации</p>
+							</a>
+
+							<a href="#!" class="products1__block" title="Перейти до розділу Webinars">
+								<picture class="products__img">
+									<source srcset="./images/Main-page/products-7.webp" type="image/webp">
+									<img src="./images/Main-page/products-7.png" alt="Mission picture">
+								</picture>
+
+								<p>Медитации</p>
+							</a>
+
+							<a href="#!" class="products1__block" title="Перейти до розділу Webinars">
+								<picture class="products__img">
+									<source srcset="./images/Main-page/products-8.webp" type="image/webp">
+									<img src="./images/Main-page/products-8.png" alt="Mission picture">
+								</picture>
+
+								<p>Специальные программы и вебинары</p>
+							</a>
+						</div>
+
+						<a href="#!" class="main-btn products1-btn">все продукты</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="webinars">
+				<div class="webinars__container">
+					<div class="webinars__blocks">
+						<div class="products1__content webinars__content">
+							<div class="products1__title">
+								<span>Скоро в эфире</span>
+								<h1>Наши бесплатные вебинары</h1>
+							</div>
+						</div>
+
+						<ul class="webinars__list">
+							<li class="webinars__item">
+								<picture class="webinars__img">
+									<source srcset="./images/Main-page//vebinare2.webp" type="image/webp">
+									<img src="./images/Main-page/vebinare2.png" alt="Webinar" draggable="false">
+								</picture>
+
+								<div class="webinars__item-content">
+									<h1 class="webinars__title">Название</h1>
+									<p class="webinars__title">Мы приглашаем вас стать частью нашей семьи </p>
+									<div class="webinars__item-btns">
+										<button><a href="#!">подробнее</a></button>
+										<button><a href="#!">участвую</a></button>
+									</div>
+								</div>
+							</li>
+
+							<li class="webinars__item">
+								<picture class="webinars__img">
+									<source srcset="./images/Main-page//vebinare2.webp" type="image/webp">
+									<img src="./images/Main-page/vebinare2.png" alt="Webinar" draggable="false">
+								</picture>
+
+								<div class="webinars__item-content">
+									<h1 class="webinars__title">Название</h1>
+									<p class="webinars__title">Мы приглашаем вас стать частью нашей семьи </p>
+									<div class="webinars__item-btns">
+										<button><a href="#!">подробнее</a></button>
+										<button><a href="#!">участвую</a></button>
+									</div>
+								</div>
+							</li>
+
+							<li class="webinars__item">
+								<picture class="webinars__img">
+									<source srcset="./images/Main-page//vebinare2.webp" type="image/webp">
+									<img src="./images/Main-page/vebinare2.png" alt="Webinar" draggable="false">
+								</picture>
+
+								<div class="webinars__item-content">
+									<h1 class="webinars__title">Название</h1>
+									<p class="webinars__title">Мы приглашаем вас стать частью нашей семьи </p>
+									<div class="webinars__item-btns">
+										<button><a href="#!">подробнее</a></button>
+										<button><a href="#!">участвую</a></button>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="callUs">
+				<div class="callUs__container">
+					<div class="callUs__blocks">
+						<div class="callUs__content">
+							<div class="callUs__title">
+								<h1>Свяжитесь с нами!</h1>
+							</div>
+
+							<p class="callUs__descript">
+								Не стесняйтесь звонить или писать нам. Мы внимательно отнесёмся к любой вашей проблеме.
+							</p>
+
+							<div class="callUs__info">
+								<a href="tel:+79204022363">+7(920)402-23-63</a>
+								<a href="mailto:pronacc108@gmail.com" class="callUs__main">pronacc108@gmail.com</a>
+							</div>
+
+							<ul class="callUs__list">
+								<li><a href="#!"><img src="./images/icon/instagram-contactUs.svg" alt="instagram"></a>
+								</li>
+								<li><a href="#!"><img src="./images/icon/vk-contactUs.svg" alt="vk"></a></li>
+								<li><a href="#!"><img src="./images/icon/footer-icon-social.svg" alt="social"></a>
+								</li>
+								<li><a href="#!"><img src="./images/icon/tik-tok-contactUs.svg" alt="tiktok"></a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="callUs__wrapper">
+							<div class="chanels">
+								<div class="chanels__wrap">
+									<div class="chanels__title">
+										<h1>Наши Telegram каналы: </h1>
+									</div>
+
+									<ul class="chanels__list">
+										<li><a href="https://t.me/pro_nacc">Новости</a></li>
+										<li><a href="https://t.me/pro_nacc108">Психология</a></li>
+										<li><a href="https://t.me/humor_pronacc">Развлечения</a></li>
+										<li><a href="https://t.me/wheelofFortune_pronacc">Психонумерология</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="chanels">
+								<div class="chanels__wrap">
+									<div class="chanels__title">
+										<h1>Наши Youtube каналы: </h1>
+
+									</div>
+
+									<ul class="chanels__list">
+										<li><a href="https://t.me/pro_nacc">Новости</a></li>
+										<li><a href="https://t.me/pro_nacc108">Психология</a></li>
+										<li><a href="https://t.me/humor_pronacc">Развлечения</a></li>
+										<li><a href="https://t.me/wheelofFortune_pronacc">Психонумерология</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="signUp">
+	<div class="signUp__container">
+		<div class="signUp__form">
+			<div class="signUp__content">
+				<div class="signUp__title">
+					<h1>Записаться в наш закрытый клуб</h1>
+				</div>
+
+				<form action="#" method="POST">
+					<label>
+						<input type="text" name="name" placeholder="Ваше имя" required>
+					</label>
+					<label>
+						<input type="email" name="email" placeholder="Ваш e-mail" required>
+					</label>
+					<label>
+						<input type="tel" name="phone" placeholder="Ваш телефон" required>
+					</label>
+
+					<div class="checkbox-group">
+						<label>
+							<input type="checkbox" name="consent" required checked="checked">
+							Ставя отметку, вы даёте согласие на обработку своих персональных данных
+						</label>
+						<label>
+							<input type="checkbox" name="contact">
+							Связаться со мной по телефону
+						</label>
+					</div>
+					
+					<a href="#!"><button type="submit" class="signUp-btn">Записаться</button></a>
+				</form>
+			</div>
+
+			<picture class="signUp__img">
+				<source srcset="./images/Main-page/signUp.webp" type="image/webp">
+				<img src="./images/Main-page/signUp.png" alt="signUp">
+			</picture>
+		</div>
+	</div>
+</section>
+
+
+		</div>
+		<footer class="footer" id="footer">
+	<div class="footer__container">
+		<div class="footer__blocks">
+			<div class="footer__form">
+				<h1>Подписаться на новостную рассылку</h1>
+				<div action="#" method="post" class="form">
+					<input type="text" class="footer__name" name="name" placeholder="Ваше имя" required>
+
+					<input type="tel" class="footer__phone" name="phone" placeholder="Ваш телефон" required>
+
+					<a href="#!" class="main-btn footer-btn">Подписаться</a>
+				</div>
+
+				<div class="footer__social">
+					<a href="#!"><img src="./images/icon/form-icon-01.svg" alt="vk"></a>
+					<a href="#!"><img src="./images/icon/form-icon-2.svg" alt="telegram"></a>
+					<a href="#!"><img src="./images/icon/form-icon-3.svg" alt="instagram"></a>
+					<a href="#!"><img src="./images/icon/form-icon-4.svg" alt="tiktok"></a>
+					<a href="#!"> <img src="./images/icon/form-icon-5.svg" alt="-"></a>
+				</div>
+			</div>
+
+			<div class="footer__blocks-wrapper">
+				<div class="footer__menu">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item">
+							<a href="#!">О проекте</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Закрытый клуб PRO NACC</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Маркет</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Обучение</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Продукты</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Личный кабинет</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__info">
+					<h1>Контакты</h1>
+
+					<div class="footer__info-about">
+						<a href="tel:+79204022363">
+							<img src="./images/icon/Frame.svg" alt="number">
+							<p>+7 920 402-23-63</p>
+						</a>
+						<a href="mailto:pronacc108@gmail.com">
+							<img src="./images/icon/Frame-1.svg" alt="mail">
+							<p>pronacc108@gmail.com</p>
+						</a>
+						<a href="#!">
+							<img src="./images/icon/Frame-2.svg" alt="address">
+							<p>Адрес</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__below">
+			<div class="footer__below-block">
+			</div>
+
+			<p>PRONACC — все права защищены. 2023</p>
+		</div>
+	</div>
+</footer>
+
+	</div>
+
+	<script src="js/main.min.js" defer="defer"></script>
+</body>
+
+</html>

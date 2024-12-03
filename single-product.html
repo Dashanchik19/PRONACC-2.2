@@ -1,0 +1,741 @@
+<!-- Sing page без Отзьівов -->
+
+<!doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pro NACC</title>
+<link rel="stylesheet" href="css/main.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<body>
+
+	<div class="wrapper">
+		<header class="header" id="navbar">
+	<div class="header__container">
+		<div class="header__blocks">
+			<div class="header__logo">
+				<a href="index.html"><img src="./images/logo.svg" alt="Logo"></a>
+			</div>
+
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item" style="gap: 10px;">
+						<a href="#!" class="menu__link">
+							о проекте
+							<i class="fa-chevron-down fa-solid"></i>
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="specialists-page.html" class="menu__sub-link">Эксперты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="response-page.html" class="menu__sub-link submenu-item">Отзывы</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#footer" class="menu__sub-link submenu-item">Контакты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link submenu-item">Обратная
+									связь</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="club-page.html" class="menu__link">
+							закрытый клуб PRO NACC
+						</a>
+					</li>
+
+					<li class="menu__item">
+						<a href="#!" class="menu__link">
+							маркет
+							<i class="fa-chevron-down fa-solid"></i>
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="market-page.html" class="menu__sub-link submenu-item">все продукты</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="market-page.html#skin-care" class="menu__sub-link submenu-item">уход за
+									кожей</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">уход за волосами</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">декоративная косметика</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">аксессуарыx </a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="products.html" class="menu__sub-link">товары </a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							обучение
+							<i class="fa-chevron-down fa-solid"></i>
+
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="articles-page.html" class="menu__sub-link">Статьи</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="pdl.html" class="menu__sub-link">ПДЛ</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="matrix.html" class="menu__sub-link">Матрица судьбы</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="pythagoras.html" class="menu__sub-link">Квадрат Пифагора.</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							продукты
+							<i class="fa-chevron-down fa-solid"></i>
+
+						</a>
+
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Обучение</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Методические материалы</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Вебинары</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Книги</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Консультации</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Расписание курсов на 2023</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Медитации</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Сказкотерапия</a>
+							</li>
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">стихи</a>
+							</li>
+
+
+							<li class="menu__sub-item">
+								<a href="#!" class="menu__sub-link">Специальные программы и <br> вебинары</a>
+							</li>
+
+
+							<li class="menu__sub-item last-sub-item">
+								<a href="#!" class="menu__sub-link">Калькуляторы.<br> Психонумерологическая<br>
+									диагностика
+									личности.</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="header__languages languages">
+				<div class="languages__blocks">
+					<!-- <div class="languages__block"><a href="#!">EN</a></div>
+					<div class="languages__block active"> <a href="#!">RUS</a></div>
+					<div class="languages__block"><a href="#!">HEB</a></div> -->
+
+					<a href="#!" class="languages__block">EN</a>
+					<a href="#!" class="languages__block active">RUS</a>
+					<a href="#!" class="languages__block">HEB</a>
+				</div>
+			</div>
+
+			<div class="header__info info">
+				<ul class="info__list">
+					<li class="info__item">
+						<a href="basket-page.html"><img src="./images/icon/fluent_cart.svg" alt="basket"></a>
+					</li>
+					<li class="info__item">
+						<a href="favorites-page.html"><img src="./images/icon/heart.svg" alt="like"></a>
+					</li>
+					<li class="info__item">
+						<a href="#!"><img src="./images/icon/person.svg" alt="register"></a>
+						<ul class="info__sub-list">
+							<li class="info__sub-item"><a href="entry-form.html" class="info__sub-link">Войти</a></li>
+							<li class="info__sub-item"><a href="register-form.html" class="info__sub-link">Зарегистрироваться</a></li>
+							<li class="info__sub-item"><a href="#!" class="info__sub-link" style="color: #78716C;">выйти</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div class="header__burger-menu" id="nav-icon3">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+		<div class="wrapper-container">
+
+			<div class="payment__wrapper">
+
+				<div class="single-product">
+					<div class="single-product__container">
+						<div class="single-product__blocks">
+							<picture class="single-product__img">
+								<!-- <source srcset="./images/Main-page/vebinars-picture_01.webp" type="image/webp"> -->
+								<img src="./images/Single-page/01.png" alt="Webinar">
+							</picture>
+
+							<div class="single-product__wrap">
+								<div class="single-product__content">
+									<div>
+										<h1>LA MOUSSE <span>CHANEL</span></h1>
+
+										<p class="single-product__price">$129.49</p>
+									</div>
+
+
+									<div class="single-product__favorites">
+										<input type="checkbox" name="contact">
+										<p>Добавить в избранное</p>
+									</div>
+
+									<div class="single-product__basket">
+										<input type="number" step="1" value="1" min="0">
+										<a href="#!" onclick="openModal()">в корзину</a>
+									</div>
+
+									<p class="single-product__descript">
+										Наши вебинары - это ценный ресурс для всех, кто ищет поддержку, информацию и
+										вдохновение
+										в различных аспектах жизни
+									</p>
+
+									<div class="single-product__line"></div>
+								</div>
+
+								<div class="single-product__category">
+									<h1>категория</h1>
+
+									<a href="#!">Маркет</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="single-product__response">
+							<p>Отзывы (0)</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- MODAL WINDOW PAYMENT -->
+
+				<div class="payment-modal" id="paymentModal">
+					<div class="payment-modal__container">
+						<div class="payment-modal__content">
+							<div class="payment-modal__close-btn">
+								<img src="./images/Favorites-page/close.svg" alt="">
+							</div>
+
+							<!-- Step 1 -->
+							<div class="payment-step active" data-step="1">
+								<h2 class="payment-modal__title">Корзина</h2>
+
+								<div class="payment-modal__wrapper">
+									<p class="payment-modal__num">Шаг 1</p>
+									<div class="payment-modal__products">
+										<div class="payment-modal__product">
+											<img class="payment-product__img" src="./images/Single-page/01.png" alt="Product">
+
+											<div class="payment-modal__details">
+												<div>
+													<h1>LA MOUSSE</h1>
+													<span>CHANEL</span>
+												</div>
+												<p class="payment-modal__desc">Наши вебинары - это ценный ресурс для
+													всех,
+													кто
+													ищет поддержку, информацию и вдохновение в различных аспектах жизни
+												</p>
+												<p class="payment-modal__cost">$129.49</p>
+
+												<input class="payment-modal__value" type="number" min="1" value="1">
+											</div>
+										</div>
+									</div>
+									<div class="payment-modal__summary">
+										<div>
+											<p>Подитог:</p>
+											<span>$129.49</span>
+										</div>
+
+										<div>
+											<p>Итого:</p>
+											<span class="green">$129.49</span>
+										</div>
+									</div>
+
+								</div>
+
+								<a href="#!" class="payment-btn" onclick="showPaymentStep(1, 2)">Далее</a>
+							</div>
+
+							<!-- Step 2 -->
+							<div class="payment-step hidden" data-step="2">
+								<div class="payment-modal__wrapper">
+									<h2 class="payment-modal__title">Контактные данные</h2>
+									<p class="payment-modal__num">Шаг 2</p>
+									<form class="payment-modal__form">
+										<div class="payment-modal__inputs">
+											<input type="text" placeholder="Введите ваше имя" required>
+											<input type="email" placeholder="Введите ваш e-mail" required>
+											<input type="tel" placeholder="Введите ваш телефон" required>
+										</div>
+
+										<div class="payment-modal__checkbox">
+											<label>
+												<input type="checkbox" value="pickup" onclick="handleCheckboxChange('pickup')">
+												<p>Самовывоз</p>
+											</label>
+											<label>
+												<input type="checkbox" value="delivery" onclick="handleCheckboxChange('delivery')">
+												<p>Доставка на дом</p>
+											</label>
+										</div>
+									</form>
+
+								</div>
+								<a href="#!" class="payment-btn" disabled="disabled" onclick="proceedToStep3()">Далее</a>
+							</div>
+
+							<!-- Step 3 -->
+							<div class="payment-step hidden delivery" data-step="3">
+								<h2 class="payment-modal__title">Доставка</h2>
+								<div class="payment-modal__wrapper">
+									<p class="payment-modal__num">Шаг 3</p>
+									<!-- <p>Выберите адрес для доставки.</p> -->
+
+									<form class="payment-modal__step-three">
+										<div class="payment-modal__inputs">
+											<input type="text" id="name" name="name" placeholder="Введите ваше имя">
+										</div>
+
+										<div class="payment-modal__select-wrap">
+											<select id="country" name="country">
+												<option value="" disabled="disabled" selected="selected">Выберите вашу страну</option>
+												<option></option>
+												<option></option>
+												<option></option>
+											</select>
+
+											<select id="region" name="region">
+												<option value="" disabled="disabled" selected="selected">Выберите ваш регион</option>
+												<option value="region1">Регион 1</option>
+												<option value="region2">Регион 2</option>
+											</select>
+										</div>
+
+
+										<!-- <label for="address">Введите ваш адрес</label> -->
+										<div class="payment-modal__inputs">
+											<input type="text" id="address" name="address" placeholder="Введите ваш адрес">
+										</div>
+
+										<div class="delivery-options">
+											<div>
+												<input type="radio" id="post" name="delivery" value="post">
+												<label for="post">
+													<img src="./images/Single-page/post.svg" alt="Почта России" width="40">
+													<p>Доставка Почтой России</p>
+												</label>
+											</div>
+										</div>
+										<div class="delivery-options">
+											<div>
+												<input type="radio" id="cdek" name="delivery" value="cdek">
+												<label for="cdek">
+													<img src="./images/Single-page/cdek.svg" alt="CDEK" width="80">
+													<p>Доставка СДЭК</p>
+												</label>
+											</div>
+										</div>
+
+									</form>
+								</div>
+								<a href="#!" class="payment-btn" onclick="showPaymentStep(3, 4)">Далее</a>
+							</div>
+
+							<!-- Step 3 -->
+							<div class="payment-step hidden pickup" data-step="3">
+								<h2 class="payment-modal__title">Оплата</h2>
+								<div class="payment-modal__wrapper">
+									<p class="payment-modal__num">Шаг 3</p>
+
+									<div class="payment-modal__card-inputs">
+										<div>
+											<input type="text" id="card-number" class="card-input" placeholder="Введите номер карты">
+										</div>
+
+										<div class="payment-modal__wrap-3">
+											<input type="text" class="card-input date" placeholder="MM / YY">
+											<input type="text" class="card-input cvc" placeholder="CVC" width="40px">
+										</div>
+									</div>
+								</div>
+								<a href="#!" class="payment-btn" onclick="showPaymentStep(4, 5)">Далее</a>
+							</div>
+
+							<!-- Step 4  -->
+							<div class="payment-step hidden" data-step="4">
+								<h2 class="payment-modal__title">Оплата</h2>
+								<!-- <p class="payment-step-num">Шаг 4</p> -->
+
+								<div class="payment-modal__wrapper">
+									<div class="payment-modal__products">
+										<div class="payment-modal__product">
+											<img class="payment-product__img" src="./images/Single-page/01.png" alt="Product">
+											<div class="payment-modal__details">
+												<div>
+													<h1>LA MOUSSE</h1>
+													<span>CHANEL</span>
+												</div>
+												<p class="payment-modal__desc">Наши вебинары - это ценный ресурс для
+													всех,
+													кто
+													ищет поддержку, информацию и вдохновение в различных аспектах жизни
+												</p>
+												<p class="payment-modal__cost">$129.49</p>
+
+												<input class="payment-modal__value" type="number" min="1" value="1">
+											</div>
+										</div>
+									</div>
+
+									<div class="payment-modal__summary">
+										<div>
+											<p>Подитог:</p>
+											<span>$129.49</span>
+										</div>
+
+										<div>
+											<p>Итого:</p>
+											<span class="green">$129.49</span>
+										</div>
+									</div>
+
+									<div class="payment-modal__number">
+										<div class="payment-modal__number-top">
+											<h1>Указанный номер карты:</h1>
+											<p>править</p>
+										</div>
+
+										<div class="payment-modal__card-inputs">
+											<div>
+												<input type="text" id="card-number" class="card-input" placeholder="1234 5678 9012 3456">
+											</div>
+
+											<div class="payment-modal__wrap-3">
+												<input type="text" class="card-input date" placeholder="11 / 11">
+												<input type="text" class="card-input cvc" placeholder="123" width="40px">
+											</div>
+										</div>
+									</div>
+								</div>
+								<a href="#!" class="payment-btn" onclick="showPaymentStep(4, 5)">оплатить</a>
+							</div>
+
+							<!-- Step 5  -->
+							<div class="payment-step hidden" data-step="5">
+								<div class="payment-modal__wrapper payment-modal__center">
+									<div class="payment-modal__last">
+										<p>Операция оплаты завершена.</p>
+										<span>Письмо отправлено на почту.</span>
+									</div>
+
+									<h1>Спасибо за покупку!</h1>
+								</div>
+
+								<a href="/" class="payment-btn" onclick="">вернуться в магазин</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer" id="footer">
+	<div class="footer__container">
+		<div class="footer__blocks">
+			<div class="footer__form">
+				<h1>Подписаться на новостную рассылку</h1>
+				<div action="#" method="post" class="form">
+					<input type="text" class="footer__name" name="name" placeholder="Ваше имя" required>
+
+					<input type="tel" class="footer__phone" name="phone" placeholder="Ваш телефон" required>
+
+					<a href="#!" class="footer-btn main-btn">Подписаться</a>
+				</div>
+
+				<div class="footer__social">
+					<a href="#!"><img src="./images/icon/form-icon-01.svg" alt="vk"></a>
+					<a href="#!"><img src="./images/icon/form-icon-2.svg" alt="telegram"></a>
+					<a href="#!"><img src="./images/icon/form-icon-3.svg" alt="instagram"></a>
+					<a href="#!"><img src="./images/icon/form-icon-4.svg" alt="tiktok"></a>
+					<a href="#!"> <img src="./images/icon/form-icon-5.svg" alt="-"></a>
+				</div>
+			</div>
+
+			<div class="footer__blocks-wrapper">
+				<div class="footer__menu">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item">
+							<a href="#!">О проекте</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Закрытый клуб PRO NACC</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Маркет</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Обучение</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Продукты</a>
+						</li>
+
+						<li class="footer__menu-item">
+							<a href="#!">Личный кабинет</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__info">
+					<h1>Контакты</h1>
+
+					<div class="footer__info-about">
+						<a href="tel:+79204022363">
+							<img src="./images/icon/Frame.svg" alt="number">
+							<p>+7 920 402-23-63</p>
+						</a>
+						<a href="mailto:pronacc108@gmail.com">
+							<img src="./images/icon/Frame-1.svg" alt="mail">
+							<p>pronacc108@gmail.com</p>
+						</a>
+						<a href="#!">
+							<img src="./images/icon/Frame-2.svg" alt="address">
+							<p>Адрес</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__below">
+			<div class="footer__below-block">
+			</div>
+
+			<p>PRONACC — все права защищены. 2023</p>
+		</div>
+	</div>
+</footer>
+	</div>
+
+
+	<script>
+		function showPaymentStep(currentStep, nextStep) {
+			const modal = document.getElementById("paymentModal");
+			const current = modal.querySelector(`.payment-step[data-step="${currentStep}"]`);
+			const next = modal.querySelector(`.payment-step[data-step="${nextStep}"]`);
+
+			current.classList.remove("active");
+			current.classList.add("hidden");
+			next.classList.remove("hidden");
+			next.classList.add("active");
+		}
+
+		function closePaymentModal() {
+			const modal = document.getElementById("paymentModal");
+			modal.style.display = "none";
+		}
+
+		function handleCheckboxChange(option) {
+			const modal = document.getElementById("paymentModal");
+			const pickupOption = modal.querySelector('.payment-modal__checkbox input[value="pickup"]');
+			const deliveryOption = modal.querySelector('.payment-modal__checkbox input[value="delivery"]');
+			const nextButton = modal.querySelector('.payment-step[data-step="2"] .payment-btn');
+
+			// Деактивуємо інші опції
+			if (option === "pickup") {
+				deliveryOption.checked = false;
+			} else if (option === "delivery") {
+				pickupOption.checked = false;
+			}
+
+			// Активуємо кнопку "Далі" лише після вибору
+			if (pickupOption.checked || deliveryOption.checked) {
+				nextButton.disabled = false;
+			} else {
+				nextButton.disabled = true;
+			}
+		}
+
+		function proceedToStep3() {
+			const modal = document.getElementById("paymentModal");
+			const pickupOption = modal.querySelector('.payment-modal__checkbox input[value="pickup"]').checked;
+			const deliveryOption = modal.querySelector('.payment-modal__checkbox input[value="delivery"]').checked;
+
+			if (pickupOption) {
+				showPaymentStep(2, 4); // Перехід на крок "Доставка"
+			} else if (deliveryOption) {
+				showPaymentStep(2, 3); // Перехід на крок "Оплата"
+			}
+		}
+
+		// Анимация
+		function showPaymentStep(currentStep, nextStep) {
+			const modal = document.getElementById("paymentModal");
+			const current = modal.querySelector(`.payment-step[data-step="${currentStep}"]`);
+			const next = modal.querySelector(`.payment-step[data-step="${nextStep}"]`);
+
+			// Додаємо анімацію для поточного кроку
+			current.classList.remove("active");
+			current.classList.add("hidden", "animate-out");
+
+			// Після завершення анімації приховуємо елемент
+			current.addEventListener("animationend", () => {
+				current.classList.remove("animate-out");
+			}, { once: true });
+
+			// Додаємо анімацію для наступного кроку
+			next.classList.remove("hidden");
+			next.classList.add("active", "animate-in");
+
+			next.addEventListener("animationend", () => {
+				next.classList.remove("animate-in");
+			}, { once: true });
+		}
+
+		// Анимация кнопки закрьітия модального
+
+		document.addEventListener("DOMContentLoaded", () => {
+			const modal = document.getElementById("paymentModal");
+			const closeButton = modal.querySelector(".payment-modal__close-btn");
+
+			closeButton.addEventListener("click", () => {
+				// Додаємо клас для анімації закриття
+				modal.classList.add("animate-close");
+
+				// Після завершення анімації приховуємо модальне вікно
+				modal.addEventListener(
+					"animationend",
+					() => {
+						modal.style.display = "none";
+						modal.classList.remove("animate-close");
+					},
+					{ once: true }
+				);
+			});
+		});
+
+		// Отримуємо модальне вікно та body
+		const modal = document.getElementById('paymentModal');
+		const body = document.body;
+
+		// Функція відкриття модального вікна
+		function openModal() {
+			const modal = document.getElementById("paymentModal");
+			const body = document.body;
+
+			// Скидаємо всі кроки модального вікна
+			const steps = modal.querySelectorAll('.payment-step');
+			steps.forEach(step => {
+				step.classList.remove('active', 'hidden');
+			});
+
+			// Відображаємо перший крок
+			const firstStep = modal.querySelector('.payment-step[data-step="1"]');
+			firstStep.classList.add('active');
+
+			// Відображаємо модальне вікно та додаємо клас для анімації
+			modal.classList.add('animate-open');
+			modal.classList.remove('animate-close');
+			modal.style.display = 'block';
+			body.classList.add('no-scrollModal');
+		}
+
+
+		// Функція закриття модального вікна
+		function closeModal() {
+			modal.classList.add('animate-close');
+			modal.classList.remove('animate-open');
+			setTimeout(() => {
+				modal.style.display = 'none';
+			}, 500);
+			body.classList.remove('no-scrollModal');
+		}
+
+		// Обробник для кнопки закриття
+		document.querySelector('.payment-modal__close-btn img').addEventListener('click', closeModal);
+
+		modal.addEventListener('click', (e) => {
+			if (e.target === modal) {
+				closeModal();
+			}
+		});
+
+
+	</script>
+
+	<script src="js/main.min.js" defer="defer"></script>
+</body>
+
+</html>
